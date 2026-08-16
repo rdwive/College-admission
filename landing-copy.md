@@ -10,7 +10,7 @@ Your college list should be built on your numbers, not your counselor's template
 
 ## Subheadline
 
-For the junior who got a list from their counselor and couldn't explain a single school on it.
+For the junior who knows what matters to them and wants a college list that actually reflects it.
 
 ---
 

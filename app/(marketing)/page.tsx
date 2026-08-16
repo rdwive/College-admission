@@ -71,7 +71,7 @@ export default function MarketingHome() {
             </h1>
 
             <p className="text-lg leading-relaxed mb-10" style={{ color: '#4B5563', maxWidth: '520px' }}>
-              For the junior who got a list from their counselor and couldn't explain a single school on it.
+              For the junior who knows what matters to them and wants a college list that actually reflects it.
             </p>
 
             <Link
