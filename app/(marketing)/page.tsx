@@ -81,6 +81,14 @@ export default function MarketingHome() {
             >
               Build my list with honest odds →
             </Link>
+            <p className="font-mono text-xs mt-5" style={{ color: '#6B7280' }}>
+              All results are based on verified data only —{' '}
+              <span style={{ color: '#2563EB' }}>College Scorecard 2023–24</span>
+              {' · '}
+              <span style={{ color: '#2563EB' }}>Common Data Sets 2023–24</span>
+              {' · '}
+              <span style={{ color: '#2563EB' }}>Clery Act Reports 2022</span>
+            </p>
           </div>
 
           {/* Right: stat column */}
@@ -230,9 +238,21 @@ export default function MarketingHome() {
       </section>
 
       {/* ── Footer ──────────────────────────────────────────────────────── */}
-      <footer className="px-6 md:px-14 py-7" style={{ background: '#0D0D0D', borderTop: '1px solid #1F2937' }}>
-        <div className="font-mono text-xs" style={{ maxWidth: '1200px', margin: '0 auto', color: '#374151' }}>
-          Data sources: College Scorecard 2023–24 · Common Data Sets 2023–24 · Clery Act Reports 2022
+      <footer className="px-6 md:px-14 py-10" style={{ background: '#0D0D0D', borderTop: '2px solid #1F2937' }}>
+        <div style={{ maxWidth: '1200px', margin: '0 auto' }}>
+          <p className="font-mono text-xs mb-3 font-semibold uppercase" style={{ color: '#6B7280', letterSpacing: '0.12em' }}>
+            Data Sources
+          </p>
+          <div className="font-mono text-sm flex flex-wrap gap-x-6 gap-y-1" style={{ color: '#D1D5DB' }}>
+            <span>College Scorecard 2023–24</span>
+            <span style={{ color: '#374151' }}>·</span>
+            <span>Common Data Sets 2023–24</span>
+            <span style={{ color: '#374151' }}>·</span>
+            <span>Clery Act Reports 2022</span>
+          </div>
+          <p className="font-mono text-xs mt-4" style={{ color: '#4B5563' }}>
+            All factual claims are sourced. No data is fabricated or estimated.
+          </p>
         </div>
       </footer>
 
