@@ -1,0 +1,205 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Option 6 — Editorial Bold</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Serif+Display:ital@0;1&family=DM+Sans:wght@300;400;500;600&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
+  <style>
+    *, *::before, *::after { box-sizing: border-box; }
+    body {
+      font-family: 'DM Sans', system-ui, sans-serif;
+      background: #fff;
+      color: #0D0D0D;
+      -webkit-font-smoothing: antialiased;
+      margin: 0;
+    }
+    .serif { font-family: 'DM Serif Display', Georgia, serif; }
+    .mono  { font-family: 'JetBrains Mono', Menlo, monospace; }
+  </style>
+</head>
+<body>
+
+<!-- ── Nav ──────────────────────────────────────────────────────────────── -->
+<nav style="border-bottom:2px solid #0D0D0D; background:#fff;"
+     class="flex items-center justify-between px-6 md:px-14 py-5 sticky top-0 z-10">
+  <span class="serif text-lg" style="color:#0D0D0D;">College Admission Strategist</span>
+  <a href="#" class="px-5 py-2.5 text-sm font-semibold hover:opacity-80 transition-opacity"
+     style="background:#0D0D0D; color:#fff;">
+    Build my list with honest odds
+  </a>
+</nav>
+
+<!-- ── Hero ─────────────────────────────────────────────────────────────── -->
+<section class="px-6 md:px-14 pt-16 pb-20" style="max-width:1200px; margin:0 auto;">
+  <div class="grid grid-cols-1 lg:grid-cols-12 gap-0 items-start">
+
+    <!-- Left: eyebrow + headline -->
+    <div class="lg:col-span-8 lg:pr-16 mb-12 lg:mb-0">
+      <div class="flex items-center gap-3 mb-10">
+        <span class="mono text-xs font-semibold" style="color:#0D0D0D; letter-spacing:0.18em;">COLLEGE LIST BUILDER</span>
+        <span style="width:1px; height:14px; background:#D1D5DB; display:inline-block;"></span>
+        <span class="mono text-xs font-semibold" style="color:#2563EB; letter-spacing:0.12em;">CDS 2023–24</span>
+        <span style="width:1px; height:14px; background:#D1D5DB; display:inline-block;"></span>
+        <span class="mono text-xs font-semibold" style="color:#6B7280; letter-spacing:0.12em;">NO ACCOUNT NEEDED</span>
+      </div>
+      <h1 class="serif leading-none mb-0"
+          style="font-size:clamp(3rem,7vw,5.5rem); color:#0D0D0D; letter-spacing:-0.02em;">
+        Your college list should be built on your numbers,
+      </h1>
+      <!-- accent line break -->
+      <h1 class="serif leading-none mb-10"
+          style="font-size:clamp(3rem,7vw,5.5rem); color:#2563EB; letter-spacing:-0.02em;">
+        not your counselor's template.
+      </h1>
+      <p class="text-lg leading-relaxed mb-10" style="color:#4B5563; max-width:520px;">
+        For the junior who got a list from their counselor and couldn't explain a single school on it.
+      </p>
+      <a href="#" class="inline-block px-9 py-4 text-base font-semibold hover:opacity-80 transition-opacity"
+         style="background:#2563EB; color:#fff;">
+        Build my list with honest odds →
+      </a>
+    </div>
+
+    <!-- Right: stat column -->
+    <div class="lg:col-span-4 lg:pt-20">
+      <div style="border-top:2px solid #E5E7EB; padding-top:1.5rem; margin-bottom:2.5rem;">
+        <div class="mono" style="font-size:3.5rem; color:#0D0D0D; font-weight:500; line-height:1;">60</div>
+        <div class="text-sm mt-2" style="color:#6B7280;">schools scored from verified data</div>
+      </div>
+      <div style="border-top:2px solid #E5E7EB; padding-top:1.5rem; margin-bottom:2.5rem;">
+        <div class="mono" style="font-size:2rem; color:#2563EB; font-weight:500; line-height:1;">22–31%</div>
+        <div class="text-sm mt-2" style="color:#6B7280;">probability always shown as a range</div>
+      </div>
+      <div style="border-top:2px solid #E5E7EB; padding-top:1.5rem;">
+        <div class="mono" style="font-size:3.5rem; color:#0D0D0D; font-weight:500; line-height:1;">9</div>
+        <div class="text-sm mt-2" style="color:#6B7280;">fit dimensions weighted by you</div>
+      </div>
+    </div>
+
+  </div>
+</section>
+
+<!-- ── Demo ─────────────────────────────────────────────────────────────── -->
+<section style="background:#F3F4F6; border-top:2px solid #0D0D0D; border-bottom:2px solid #0D0D0D;"
+         class="px-6 md:px-14 py-20">
+  <div style="max-width:1200px; margin:0 auto;">
+    <p class="text-xs font-semibold uppercase mb-12"
+       style="color:#9CA3AF; letter-spacing:0.2em;">Sample output</p>
+
+    <!-- Wide card -->
+    <div style="background:#fff; border:1px solid #E5E7EB; border-left:5px solid #DC2626;">
+      <div class="p-8 grid grid-cols-1 md:grid-cols-3 gap-8">
+        <!-- Col 1: school info + probability -->
+        <div>
+          <div class="flex items-center gap-3 mb-6">
+            <span class="mono text-xs font-semibold tracking-widest uppercase px-2.5 py-1"
+                  style="color:#DC2626; border:1px solid #DC2626;">Reach</span>
+          </div>
+          <div class="text-xl font-semibold mb-1" style="color:#0D0D0D;">University of Michigan</div>
+          <div class="text-sm mb-8" style="color:#9CA3AF;">Ann Arbor, MI</div>
+          <div>
+            <div class="text-xs mb-2" style="color:#9CA3AF;">Admission probability</div>
+            <div class="mono font-medium mb-1" style="font-size:2.2rem; color:#2563EB;">22–31%</div>
+            <div class="mono text-xs" style="color:#9CA3AF;">Source: CDS 2023–24</div>
+          </div>
+        </div>
+
+        <!-- Col 2: fit score + bar -->
+        <div>
+          <div class="text-xs mb-2" style="color:#9CA3AF;">Fit score</div>
+          <div class="mono font-medium mb-6" style="font-size:3rem; color:#0D0D0D; line-height:1;">
+            84<span style="font-size:1.25rem; color:#9CA3AF;">/100</span>
+          </div>
+          <!-- 9-segment bar, larger -->
+          <div class="flex gap-1 h-3 mb-3">
+            <div class="flex-1 rounded-sm" style="background:#16A34A;"></div>
+            <div class="flex-1 rounded-sm" style="background:#16A34A;"></div>
+            <div class="flex-1 rounded-sm" style="background:#CA8A04;"></div>
+            <div class="flex-1 rounded-sm" style="background:#16A34A;"></div>
+            <div class="flex-1 rounded-sm" style="background:#16A34A;"></div>
+            <div class="flex-1 rounded-sm" style="background:#E5E7EB;"></div>
+            <div class="flex-1 rounded-sm" style="background:#CA8A04;"></div>
+            <div class="flex-1 rounded-sm" style="background:#16A34A;"></div>
+            <div class="flex-1 rounded-sm" style="background:#DC2626;"></div>
+          </div>
+          <div class="mono text-xs" style="color:#9CA3AF;">9 fit dimensions · your weights</div>
+        </div>
+
+        <!-- Col 3: tags + rationale + CTA -->
+        <div class="flex flex-col justify-between">
+          <div>
+            <div class="flex flex-wrap gap-2 mb-4">
+              <span class="text-xs px-2.5 py-1 font-medium"
+                    style="background:#DCFCE7; color:#15803D;">Strong CS research</span>
+              <span class="text-xs px-2.5 py-1 font-medium"
+                    style="background:#DCFCE7; color:#15803D;">Merit aid available</span>
+              <span class="text-xs px-2.5 py-1 font-medium"
+                    style="background:#FEF3C7; color:#92400E;">Out-of-state pool competitive</span>
+            </div>
+            <p class="text-sm leading-relaxed" style="color:#6B7280;">
+              Research fit and affordability offset geographic disadvantage; probability constrained by out-of-state selectivity.
+            </p>
+          </div>
+          <div class="mt-6">
+            <div class="text-sm text-center py-3 font-medium cursor-default select-none"
+                 style="border:1px solid #E5E7EB; color:#D1D5DB;">
+              View strategy →
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ── How it works ──────────────────────────────────────────────────────── -->
+<section class="px-6 md:px-14 py-20" style="max-width:1200px; margin:0 auto;">
+  <h2 class="serif text-2xl mb-16" style="color:#0D0D0D;">How it works</h2>
+  <div class="grid grid-cols-1 md:grid-cols-3 gap-0 md:divide-x" style="border-color:#E5E7EB;">
+    <div class="pb-10 md:pb-0 md:pr-12">
+      <div class="mono text-xs mb-6" style="color:#2563EB; letter-spacing:0.1em;">01</div>
+      <div class="text-lg font-medium mb-3" style="color:#0D0D0D;">Enter your stats and what matters to you</div>
+      <div class="text-sm leading-relaxed" style="color:#6B7280;">GPA, test scores, intended major, budget ceiling, location. Four steps, about 8 minutes.</div>
+    </div>
+    <div class="py-10 md:py-0 md:px-12">
+      <div class="mono text-xs mb-6" style="color:#9CA3AF; letter-spacing:0.1em;">02</div>
+      <div class="text-lg font-medium mb-3" style="color:#0D0D0D;">We score 60 schools against your criteria</div>
+      <div class="text-sm leading-relaxed" style="color:#6B7280;">Nine fit dimensions, weighted exactly as you specify. Data from CDS, Scorecard, Clery Act.</div>
+    </div>
+    <div class="pt-10 md:pt-0 md:pl-12">
+      <div class="mono text-xs mb-6" style="color:#9CA3AF; letter-spacing:0.1em;">03</div>
+      <div class="text-lg font-medium mb-3" style="color:#0D0D0D;">Get honest odds and a strategy for each</div>
+      <div class="text-sm leading-relaxed" style="color:#6B7280;">Probability ranges, never single-point estimates. A 400-word strategy brief per school.</div>
+    </div>
+  </div>
+</section>
+
+<!-- ── Final CTA ─────────────────────────────────────────────────────────── -->
+<section style="background:#0D0D0D;" class="px-6 md:px-14 py-24">
+  <div style="max-width:1200px; margin:0 auto;" class="flex flex-col md:flex-row items-start md:items-center justify-between gap-10">
+    <div>
+      <h2 class="serif mb-3" style="font-size:clamp(1.8rem,3.5vw,2.6rem); color:#F9FAFB;">
+        Stop guessing. See where you actually stand.
+      </h2>
+      <p class="text-base" style="color:#6B7280;">Takes about 8 minutes. No account needed.</p>
+    </div>
+    <a href="#" class="inline-block px-10 py-4 text-base font-semibold hover:opacity-90 transition-opacity whitespace-nowrap"
+       style="background:#2563EB; color:#fff;">
+      Build my list with honest odds →
+    </a>
+  </div>
+</section>
+
+<!-- ── Footer ────────────────────────────────────────────────────────────── -->
+<footer style="background:#0D0D0D; border-top:1px solid #1F2937;" class="px-6 md:px-14 py-7">
+  <div style="max-width:1200px; margin:0 auto;" class="mono text-xs" style="color:#374151;">
+    Data sources: College Scorecard 2023–24 · Common Data Sets 2023–24 · Clery Act Reports 2022
+  </div>
+</footer>
+
+</body>
+</html>
